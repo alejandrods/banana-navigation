@@ -22,3 +22,8 @@ Hyperparameters:
 
 ## Plot of Rewards
 Plot of rewards can beseen after the environment is solved.
+
+It takes 1380 episodes to solve the environment with Dueling DQN network, Double DQN, and Prioritized Experiences turned on.
+
+
+
