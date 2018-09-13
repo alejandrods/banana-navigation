@@ -35,9 +35,11 @@ The project consists of 5 files:
 * checkpoint.pth - saved trained model to use
 * Report.md - description of the implementation
 
-Switching between DQN model and Dueling DQN is done at cell 4 by settings dueling to True/False
+Switching between DQN model and Dueling DQN is done at cell 4 by setting dueling to True/False
+
+Switching Prioritized Experience Replay is also done at cell 4 by setting prioritize to True/False
 ```
-agent = Agent(state_size=37, action_size=4, seed=0, dueling=False)
+agent = Agent(state_size=37, action_size=4, seed=0, dueling=False, prioritize=False)
 ```
 
 
