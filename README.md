@@ -1,7 +1,4 @@
-# banana-navigation
-Udacity deep reinforcement learning navigation project
-
-</br>
+# Banana Navigation
 
 ## Project details
 This project uses an Unity environment. The environment is a flat plain with bananas scattered around. There are 2 types of bananas: yellow bananas and blue bananas. The objective is to collect yellow bananas and avoid blue bananas. 
@@ -14,8 +11,6 @@ The state space has 37 dimensions.
 
 Environment is considered solved when an average reward of +13 for 100 episodes is reached.
 
-</br>
-
 ## Getting started
 The project is written using Jupyter Notebook.
 This command needs to be run to install the needed packages:
@@ -24,8 +19,6 @@ This command needs to be run to install the needed packages:
 !pip -q install ./python
 ```
 Running all the cells in the notebook will install it automatically.
-
-</br>
 
 ## Instructions
 The project consists of 5 files:
@@ -41,5 +34,3 @@ Switching Prioritized Experience Replay is also done at cell 4 by setting priori
 ```
 agent = Agent(state_size=37, action_size=4, seed=0, dueling=False, prioritize=False)
 ```
-
-
