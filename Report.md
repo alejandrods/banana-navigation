@@ -1,7 +1,5 @@
 # Implementation description
 
-</br>
-
 ## Learning Algorithm
 
 DQN, Double DQN, Dueling DQN, Prioritized Experience Replay are used for this project.
@@ -18,8 +16,6 @@ Hyperparameters:
 * Learning rate = 0.0005
 * Update network evey 16 step
 
-</br>
-
 ## Plot of Rewards
 Plot of rewards can be seen after the environment has been solved.
 
@@ -28,8 +24,6 @@ Double DQN turned ON, Dueling DQN turned ON, and Prioritized Experience Replay t
 Double DQN turned ON, Dueling DQN turned ON, and Prioritized Experience Replay turned OFF solved the environment in 747 episodes.
 
 Double DQN turned ON, Dueling DQN turned OFF, and Prioritized Experience Replay turned OFF solved the environment in 640 episodes.
-
-</br>
 
 ## Ideas for Future Work
 Here's a list of optimizations that can be applied to the project:
